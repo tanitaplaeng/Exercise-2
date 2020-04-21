@@ -1,7 +1,46 @@
-header { 
+body { 
+    font-family: 'Nanum Brush Script', cursive;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0; 
+}
+
+h1{ 
     font-family: 'Seaweed Script', cursive;
 }
 
-body { 
-    font-family: 'Nanum Brush Script', cursive;
+main { 
+    background-color: #fff;
+    padding: 35px;
+    margin: auto;
+    max-width: 800px;
+    justify-content: center;
+}
+
+.ship { 
+    float: right;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 5px 5px 5px #999;
+    transform: rotate(3deg);
+}
+
+.booty { 
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 5px 5px 5px #999;
+    transform: rotate(-3deg);
+}
+
+.caption p{ 
+    margin: 0;
+    text-align: center;
+    color: #333;
 }
