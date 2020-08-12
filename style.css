@@ -19,8 +19,7 @@ main {
 .ship { 
     float: right;
     border: 1px solid #ddd;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 0 20px;
     padding: 10px;
     max-width: 300px;
     box-shadow: 5px 5px 5px #999;
